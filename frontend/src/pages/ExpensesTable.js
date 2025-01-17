@@ -19,7 +19,7 @@ const ExpensesTable = ({expenses,handleDeleteExpense}) => {
             <div className="flex-1 text-gray-800 ml-4 font-medium">
               {expense.text}
             </div>
-            <div className="text-gray-600 font-semibold">${expense.amount}</div>
+            <div className="text-gray-600 font-semibold">₹{expense.amount}</div>
           </div>
         ))}
       </div>
